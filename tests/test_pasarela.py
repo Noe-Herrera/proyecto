@@ -8,7 +8,7 @@ Patrón GoF : Abstract Factory (Creacional)
 Curso      : Diseño de Patrones (UCA-IEP026) 
 Autores    : Noe Herrera — 13762@uca.edu.mx — 13762 
              Noe Herrera — 13762@uca.edu.mx — 13762 
-Fecha      : 2026 
+Fecha      : 23 de Julio del 2026 
 """ 
 import pytest 
 from src.pago.pago import PagoTarjeta, PagoEfectivo 
