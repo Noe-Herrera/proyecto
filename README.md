@@ -1,2 +1,2 @@
 # proyecto
-Proyecto para la clase de diseño de patrones
+Proyecto Final — Diseño de Patrones UCA-IEP026
