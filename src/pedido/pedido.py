@@ -21,12 +21,12 @@ class Pedido:
  
     @property 
     def subtotal(self) -> float: 
-        # return sum(precio * cantidad for _, precio, cantidad in self.items) 
+        return sum(precio * cantidad for _, precio, cantidad in self.items) 
         pass 
  
     @property 
     def total(self) -> float: 
-        # return self.subtotal * (1 - self.descuento) 
+        return self.subtotal * (1 - self.descuento) 
         pass 
  
     def __str__(self): 
