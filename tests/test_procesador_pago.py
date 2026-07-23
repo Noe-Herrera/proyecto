@@ -6,9 +6,9 @@ Descripción: Pruebas unitarias para el patrón Factory Method (ProcesadorPago).
              Principio Abierto/Cerrado al extender con nuevos tipos. 
 Patrón GoF : Factory Method (Creacional) 
 Curso      : Diseño de Patrones (UCA-IEP026) 
-Autores    : Nombre Apellido — correo@uca.edu.sv — 00000000 
-             Nombre Apellido — correo@uca.edu.sv — 00000000 
-Fecha      : 2026 
+Autores    : Noe Herrera — 13762@uca.edu.mx — 13762 
+             Noe Herrera — 13762@uca.edu.mx — 13762
+Fecha      : 23 de Julio del 2026 
 """ 
 import pytest 
 from src.pago.pago import Pago, PagoTarjeta, PagoEfectivo, PagoTransferencia 
