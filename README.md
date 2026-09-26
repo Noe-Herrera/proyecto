@@ -33,3 +33,48 @@ Actividad de Semana4 realizada en el repositorio del curso.
 - Añadí el caso `25 / 2 = 12.5`, con tolerancia de `1e-10`, sin modificar las dos pruebas anteriores.
 - Ejecuté `cargo test`: **3 passed; 0 failed**.
 - Actualicé `main()` para imprimir las tres funciones y ejecuté `cargo run`: oleadas `3`, daño crítico `37.5` y daño promedio `12.5`.
+
+### Paso 4 — Verificación final
+
+Ejecuté nuevamente `cargo run` y `cargo test` desde `tipos_operandos_rust/`. Las tres pruebas pasan.
+
+Salida de `cargo run`:
+
+```text
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target/debug/tipos_operandos_rust`
+Oleadas completas: 3
+Daño crítico: 37.5
+Daño promedio: 12.5
+```
+
+Salida de `cargo test`:
+
+```text
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running unittests src/main.rs (target/debug/deps/tipos_operandos_rust-86e60272bd1f0800)
+
+running 3 tests
+test tests::prueba_calcular_dano_promedio ... ok
+test tests::prueba_calcular_dano_critico ... ok
+test tests::prueba_calcular_oleadas ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+```
+
+Revisé `git log --oneline`: cada paso del 0 al 3 tiene su propio commit y cada prueba se agregó por separado.
+
+```text
+7261b1d Paso 3: prueba unitaria de calcular_dano_promedio
+75da21b Paso 2: prueba unitaria de calcular_dano_critico
+25fecb4 Paso 1: prueba unitaria de calcular_oleadas
+abcb142 Paso 0: cargo new tipos_operandos_rust
+```
+
+## Ejecutar y probar
+
+```bash
+cd tipos_operandos_rust
+cargo run
+cargo test
+```
