@@ -18,3 +18,10 @@ Actividad de Semana4 realizada en el repositorio del curso.
 - Agregué una sola prueba: `calcular_oleadas(7, 2) == 3`.
 - Ejecuté `cargo test`: **1 passed; 0 failed**.
 - Actualicé `main()` y comprobé con `cargo run` la salida `Oleadas completas: 3`.
+
+### Paso 2 — Segunda prueba: calcular_dano_critico
+
+- Agregué `calcular_dano_critico(dano_base: i32, multiplicador: f64) -> f64`, convirtiendo `dano_base` con `as f64` antes de multiplicar.
+- Conservé la prueba anterior y añadí el caso `25 * 1.5 = 37.5`, con tolerancia de `1e-10` para comparar valores `f64`.
+- Ejecuté `cargo test`: **2 passed; 0 failed**.
+- Actualicé `main()` y ejecuté `cargo run`: también muestra `Daño crítico: 37.5`.
