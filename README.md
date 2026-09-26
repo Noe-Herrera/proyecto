@@ -25,3 +25,11 @@ Actividad de Semana4 realizada en el repositorio del curso.
 - Conservé la prueba anterior y añadí el caso `25 * 1.5 = 37.5`, con tolerancia de `1e-10` para comparar valores `f64`.
 - Ejecuté `cargo test`: **2 passed; 0 failed**.
 - Actualicé `main()` y ejecuté `cargo run`: también muestra `Daño crítico: 37.5`.
+
+### Paso 3 — Tercera prueba: calcular_dano_promedio
+
+- Agregué `calcular_dano_promedio(dano_base: i32, por_oleada: i32) -> f64`.
+- Convertí ambos operandos a `f64` antes de dividir para conservar la parte decimal.
+- Añadí el caso `25 / 2 = 12.5`, con tolerancia de `1e-10`, sin modificar las dos pruebas anteriores.
+- Ejecuté `cargo test`: **3 passed; 0 failed**.
+- Actualicé `main()` para imprimir las tres funciones y ejecuté `cargo run`: oleadas `3`, daño crítico `37.5` y daño promedio `12.5`.
